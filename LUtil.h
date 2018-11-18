@@ -13,6 +13,16 @@ const int SCREEN_FPS = 60;
 const int COLOR_MODE_CYAN = 0;
 const int COLOR_MODE_MULTI = 1;
 
+//Viewport mode
+enum ViewPortMode
+{
+    VIEWPORT_MODE_FULL,
+    VIEWPORT_MODE_HALF_CENTER,
+    VIEWPORT_MODE_HALF_TOP,
+    VIEWPORT_MODE_QUAD,
+    VIEWPORT_MODE_RADAR 
+};
+
 bool initGL();
 /*
 Pre Condition:
